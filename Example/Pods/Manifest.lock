@@ -1,0 +1,16 @@
+PODS:
+  - Mantle-JX (0.1.0)
+
+DEPENDENCIES:
+  - Mantle-JX (from `../`)
+
+EXTERNAL SOURCES:
+  Mantle-JX:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Mantle-JX: 3010e476d02b22e88475c9fdff5a668b8b6b229f
+
+PODFILE CHECKSUM: ef601038b69fc9d9a1005fa4b0a425cad882abb5
+
+COCOAPODS: 1.11.2

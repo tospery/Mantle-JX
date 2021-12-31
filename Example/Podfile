@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'Mantle-JX_Example' do
+  pod 'Mantle-JX', :path => '../'
+
+  target 'Mantle-JX_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
