@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Mantle-JX'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of Mantle-JX.'
+  s.version          = '2.2.0-v1'
+  s.summary          = 'Model framework for Cocoa and Cocoa Touch.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,25 +18,19 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+						Model framework for Cocoa and Cocoa Touch.
                        DESC
 
-  s.homepage         = 'https://github.com/yangjianxiang/Mantle-JX'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.homepage         = 'https://github.com/tospery/Overcoat-JX'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'yangjianxiang' => 'yangjianxiang@xunyou.com' }
-  s.source           = { :git => 'https://github.com/yangjianxiang/Mantle-JX.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.author           = { 'YangJianxiang' => 'tospery@gmail.com' }
+  s.source           = { :git => 'https://github.com/tospery/Overcoat-JX.git', :tag => s.version.to_s }
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '11.0'
 
   s.source_files = 'Mantle-JX/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'Mantle-JX' => ['Mantle-JX/Assets/*.png']
-  # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.private_header_files = 'Pod/Classes/extobjc/include/*.h'
+  s.frameworks = 'Foundation'
+  
 end
