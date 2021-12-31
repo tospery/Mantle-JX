@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Mantle-JX'
-  s.version          = '2.2.0-v1'
+  s.version          = '2.2.0-v2'
   s.summary          = 'Model framework for Cocoa and Cocoa Touch.'
 
 # This description is used to generate tags and improve search results.
