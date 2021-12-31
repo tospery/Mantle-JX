@@ -21,10 +21,10 @@ Pod::Spec.new do |s|
 						Model framework for Cocoa and Cocoa Touch.
                        DESC
 
-  s.homepage         = 'https://github.com/tospery/Overcoat-JX'
+  s.homepage         = 'https://github.com/tospery/Mantle-JX'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'YangJianxiang' => 'tospery@gmail.com' }
-  s.source           = { :git => 'https://github.com/tospery/Overcoat-JX.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/tospery/Mantle-JX.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '11.0'
 
