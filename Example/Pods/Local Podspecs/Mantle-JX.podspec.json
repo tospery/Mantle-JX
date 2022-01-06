@@ -1,9 +1,9 @@
 {
   "name": "Mantle-JX",
-  "version": "2.2.0-v1",
+  "version": "2.2.0-v3",
   "summary": "Model framework for Cocoa and Cocoa Touch.",
   "description": "Model framework for Cocoa and Cocoa Touch.",
-  "homepage": "https://github.com/tospery/Overcoat-JX",
+  "homepage": "https://github.com/tospery/Mantle-JX",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,13 +12,25 @@
     "YangJianxiang": "tospery@gmail.com"
   },
   "source": {
-    "git": "https://github.com/tospery/Overcoat-JX.git",
-    "tag": "2.2.0-v1"
+    "git": "https://github.com/tospery/Mantle-JX.git",
+    "tag": "2.2.0-v3"
   },
   "platforms": {
-    "ios": "11.0"
+    "ios": "9.0"
   },
-  "source_files": "Mantle-JX/Classes/**/*",
-  "private_header_files": "Pod/Classes/extobjc/include/*.h",
-  "frameworks": "Foundation"
+  "frameworks": "Foundation",
+  "source_files": [
+    "Mantle-JX",
+    "Mantle-JX/include"
+  ],
+  "subspecs": [
+    {
+      "name": "extobjc",
+      "source_files": [
+        "Mantle-JX/extobjc",
+        "Mantle-JX/extobjc/include/*.h"
+      ],
+      "private_header_files": "Mantle-JX/extobjc/include/*.h"
+    }
+  ]
 }

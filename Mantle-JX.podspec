@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Mantle-JX'
-  s.version          = '2.2.0-v2'
+  s.version          = '2.2.0-v3'
   s.summary          = 'Model framework for Cocoa and Cocoa Touch.'
 
 # This description is used to generate tags and improve search results.
@@ -26,11 +26,13 @@ Pod::Spec.new do |s|
   s.author           = { 'YangJianxiang' => 'tospery@gmail.com' }
   s.source           = { :git => 'https://github.com/tospery/Mantle-JX.git', :tag => s.version.to_s }
 
-  s.ios.deployment_target = '11.0'
+  s.platform         = :ios, '9.0'
+  s.frameworks       = 'Foundation'
+  s.source_files     = 'Mantle-JX', 'Mantle-JX/include'
 
-  s.source_files = 'Mantle-JX/Classes/**/*'
+  s.subspec 'extobjc' do |ss|
+    ss.source_files = 'Mantle-JX/extobjc', 'Mantle-JX/extobjc/include/*.h'
+	ss.private_header_files = 'Mantle-JX/extobjc/include/*.h'
+  end
 
-  s.private_header_files = 'Pod/Classes/extobjc/include/*.h'
-  s.frameworks = 'Foundation'
-  
 end

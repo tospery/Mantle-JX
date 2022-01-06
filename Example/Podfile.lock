@@ -1,5 +1,7 @@
 PODS:
-  - Mantle-JX (2.2.0-v1)
+  - Mantle-JX (2.2.0-v3):
+    - Mantle-JX/extobjc (= 2.2.0-v3)
+  - Mantle-JX/extobjc (2.2.0-v3)
 
 DEPENDENCIES:
   - Mantle-JX (from `../`)
@@ -9,7 +11,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Mantle-JX: 241aceba9c1220768d7acb03f6f3d71326947a86
+  Mantle-JX: be31cb81b3d4ccd4bc41b570218228457596e889
 
 PODFILE CHECKSUM: 7a243dcb2bd749592622c9f65a6d88d04fc9169e
 
