@@ -176,7 +176,7 @@
 				ORGANIZATIONNAME = yangjianxiang;
 				TargetAttributes = {
 					6003F589195388D20070C39A = {
-						DevelopmentTeam = WDE622528T;
+						DevelopmentTeam = Y5LG6VC6HL;
 					};
 				};
 			};
@@ -367,7 +367,7 @@
 			baseConfigurationReference = 7B38E68BE4F1AB7FAF16B42C /* Pods-Mantle-JX_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = WDE622528T;
+				DEVELOPMENT_TEAM = Y5LG6VC6HL;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Mantle-JX/Mantle-JX-Prefix.pch";
 				INFOPLIST_FILE = "Mantle-JX/Mantle-JX-Info.plist";
@@ -386,7 +386,7 @@
 			baseConfigurationReference = 3DFA11CFDF320DB6E9132A2A /* Pods-Mantle-JX_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = WDE622528T;
+				DEVELOPMENT_TEAM = Y5LG6VC6HL;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Mantle-JX/Mantle-JX-Prefix.pch";
 				INFOPLIST_FILE = "Mantle-JX/Mantle-JX-Info.plist";

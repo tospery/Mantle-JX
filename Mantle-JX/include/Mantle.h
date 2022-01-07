@@ -14,7 +14,7 @@ FOUNDATION_EXPORT double MantleVersionNumber;
 //! Project version string for Mantle.
 FOUNDATION_EXPORT const unsigned char MantleVersionString[];
 
-#if __has_include(<Mantle/Mantle.h>)
+#if __has_include(<Mantle_JX/Mantle.h>)
 #import <Mantle/MTLJSONAdapter.h>
 #import <Mantle/MTLModel.h>
 #import <Mantle/MTLModel+NSCoding.h>
